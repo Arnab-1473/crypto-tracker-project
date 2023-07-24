@@ -27,7 +27,7 @@ body {
   --darkgrey: #1b1b1b;
 }
 [data-theme="light"] {
-  --white: #129e0d;
+  --white: #0d729e;
   --black: #ffffff;
   --grey: #150c0c;
   --darkgrey: #978a8a;
