@@ -5,6 +5,7 @@ import TrendingDownRoundedIcon from "@mui/icons-material/TrendingDownRounded";
 import { Link } from "react-router-dom";
 
 function Grid({ coin }) {
+  
   return (
     <Link to={`/coin/${coin.id}`}>
       <div className={`grid-items ${coin.price_change_percentage_24h < 0 && "grid-items-red"
