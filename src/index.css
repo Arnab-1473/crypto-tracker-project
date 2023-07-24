@@ -43,8 +43,6 @@ html{
   color: var(--grey);
 }
 
-/* custom scrollbar */
-/* width */
 ::-webkit-scrollbar {
   width: 0.4rem;
 }
@@ -86,6 +84,38 @@ img {
   width: 90%;
   padding: 1rem;
 }
+/* 
+.cursor {
+  position: fixed;
+  transform: translateX(-50%) translateY(-50%);
+  pointer-events: none;
+  background-color: var(--blue);
+  z-index: 10000;
+  border: 2px solid var(--blue);
+  height: 0.3rem;
+  width: 0.3rem;
+  border-radius: 50%;
+  transition: all 200ms ease-out;
+}
+
+.cursor-pointer {
+  position: fixed;
+  border-radius: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  pointer-events: none;
+  background-color: transparent;
+  z-index: 10000;
+  border: 2px solid var(--blue);
+  height: 2rem;
+  width: 2rem;
+  transition: all 400ms ease-out;
+}
+@media only screen and (max-width: 600px) {
+  .cursor-pointer,
+  .cursor {
+    display: none;
+  }
+} */
 
 .coin-days-flex{
   display: flex;
@@ -97,5 +127,9 @@ img {
 @media only screen and (max-width: 450px) {
   .coin-days-flex{
       /* border: 1px solid rebeccapurple; */
+      /* display: flex; */
+      /* justify-content: space-around; */
+      margin: 0.5rem;
+      gap: 0;
   }
 }

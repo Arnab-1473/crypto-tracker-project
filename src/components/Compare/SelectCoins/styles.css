@@ -7,7 +7,7 @@
   }
   
   .select-coin {
-    width: 8rem;
+    /* width: 8rem; */
     text-align: center;
   }
   
@@ -22,7 +22,15 @@
       display: none;
     }
   
+  }
+  @media only screen and (max-width: 450px) {
+    .select-flex {
+      justify-content: space-evenly;
+      gap: 0rem;
+      /* margin: 1.5rem 0.5rem; */
+    }
     .select-coin {
-      width: 7rem;
+      width: 5rem;
+      text-align: center;
     }
   }

@@ -8,5 +8,7 @@
 @media only screen and (max-width: 450px) {
     .select-days{
         /* border: 1px solid red; */
+        margin-left: 1.5rem;
+        font-size: 0.8rem
     }
 }
