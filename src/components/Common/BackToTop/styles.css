@@ -1,0 +1,19 @@
+.back-to-top-btn{
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    background-color: var(--darkgrey);
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.back-to-top-btn:hover{
+    background-color: var(--blue);
+    color: var(--white);
+}

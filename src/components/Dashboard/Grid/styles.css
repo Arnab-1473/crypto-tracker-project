@@ -1,0 +1,107 @@
+.grid-items{
+    border: 3px solid var(--darkgrey);
+    height: 320px;
+    width: 320px;
+    background-color: var(--darkgrey);
+    border-radius: 1rem;
+    
+}
+.grid-items:hover{
+    border-color: var(--green);
+    cursor: pointer;
+    transition: all 0.3s;
+    scale: 1;
+}
+.grid-items-red:hover{
+    border-color: var(--red);
+    cursor: pointer;
+    transition: all 0.3s;
+    height: 322px;
+    width: 322px;
+}
+
+.coin-info-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+    /* border: 1px solid red; */
+}
+.coin-section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.coin-symbol{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.coin-name{
+    color: var(--grey);
+    font-weight: lighter;
+    font-size: 1rem;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.chip-flex{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.chip-price{
+    border: 2px solid var(--green);
+    color: var(--green);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 2rem;
+    min-width: 65px;
+    text-align: center;
+}
+
+.red{
+    border: 2px solid var(--red) !important;
+    color: var(--red) !important;
+}
+.chip-trending{
+    border: 2px solid var(--green);
+    color: var(--green);
+    height: 2rem !important;
+    width: 2rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 50%;
+    font-size: 1.1rem;
+}
+.chip-price:hover, .chip-trending:hover{
+    background-color: var(--green);
+    color: var(--white);
+    transition:  all 0.3s;
+}
+.red:hover{
+    background-color: var(--red) !important;
+    color: var(--white) !important;
+}
+.coin-price{
+    margin: 1.5rem;
+}
+.coin-price h3{
+    color: var(--green);
+}
+.coin-info{
+    margin: 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--grey);
+}
