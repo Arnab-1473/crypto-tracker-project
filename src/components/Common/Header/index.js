@@ -74,8 +74,9 @@ function Header() {
           />
         </Link>
       </div>
+      
       <div className="drawer">
-        <TemporaryDrawer />
+        <TemporaryDrawer darkMode={darkMode} setDarkMode={setDarkMode}/>
       </div>
     </div>
   );

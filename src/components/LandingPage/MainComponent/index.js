@@ -5,6 +5,7 @@ import TabsComponent from '../../Dashboard/TabsCompnent'
 import { motion } from 'framer-motion'
 import gradient from "../../../assets/gradient.jpg"
 import iphone from "../../../assets/iphone.png"
+import { RWebShare } from 'react-web-share'
 
 function MainComponent() {
   return (
@@ -38,7 +39,16 @@ function MainComponent() {
           transition={{ duration: 0.5, delay: 1.5 }}
         >
           <a href='/Dashboard'> <Button text={"Dashboard"} /> </a>
-          <a href='/'> <Button text={"Share"} outlined={true} /> </a>
+
+          <RWebShare data={{
+            text: "Crypto Dashboard made using React JS.",
+            url: "https://crypto-dashboard-dec.netlify.app/",
+            title: "CryptoDashboard.",
+          }}
+            onClick={() => console.log("shared successfully!")}>
+            <Button text={"Share"} outlined={true} className='share-btn'/>
+          </RWebShare>
+
         </motion.div>
       </div>
       <div className='right-component'>

@@ -25,10 +25,7 @@
 .mobile-td-mkt{
     display: none;
 }
-/* .td-image{
-    width: 3rem !important;
-    margin-right: 3rem;
-} */
+
 .total-volume{
     color: var(--grey);
     font-size: 1.1rem;
@@ -117,19 +114,7 @@
     .td-price-chip-list{
         margin-right: 1.5rem;
     }
-    /* .mobile-td-mkt{
-        margin-right: 1.5rem;
-        display: block;
-    }
-    .total-volume-vol{
-       display: none; 
-    }
-    .coin-price{
-        width: 6rem;
-        font-size: 1rem;
-        display: flex;
-        padding: 1rem;
-    } */
+    
 }
 
 @media only screen and (max-width: 450px) {

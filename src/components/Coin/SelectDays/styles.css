@@ -5,3 +5,8 @@
     gap: 0.5rem;
     margin: 1.5rem ;
 }
+@media only screen and (max-width: 450px) {
+    .select-days{
+        /* border: 1px solid red; */
+    }
+}

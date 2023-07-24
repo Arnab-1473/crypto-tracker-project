@@ -27,10 +27,11 @@ body {
   --darkgrey: #1b1b1b;
 }
 [data-theme="light"] {
-  --white: #47b4e2;
+  --white: #0d729e;
   --black: #ffffff;
-  --grey: #706969;
-  --darkgrey: #bbbaba;
+  --grey: #150c0c;
+  --darkgrey: #978a8a;
+  --navyblue: #329588;
 }
 
 /* to move the scroll button smoothly */
@@ -92,4 +93,9 @@ img {
   align-items: center;
   margin: 1rem;
   gap: 2rem;
+}
+@media only screen and (max-width: 450px) {
+  .coin-days-flex{
+      /* border: 1px solid rebeccapurple; */
+  }
 }
